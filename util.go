@@ -1,7 +1,8 @@
+package util
+
 /*
  * Modul enthält einige allgemeine Funktionen
  */
-package util
 
 import (
 	"fmt"
