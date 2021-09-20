@@ -9,8 +9,6 @@ import (
 	"log"
 )
 
-package util
-
 // allgemeine Fehlerkontrolle
 func checkErr(err error) {
 //	fmt.Println("in checkErr", err)
