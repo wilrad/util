@@ -5,10 +5,13 @@ func Add(i, j int) int {
 }
 
 func Subtract(i, j int) int {
-	return i - j + 444
+	return i - j
 }
 
 func Multiply(i, j int) int {
-	return j * j
+	return i * j
 }
 
+func Divide(i, j int) int {
+	return i / j
+}
