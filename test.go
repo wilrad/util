@@ -1,7 +1,5 @@
 package github.com/wilrad/util
 
-import "fmt"
-
 // ReverseRunes returns its argument string reversed rune-wise left to right.
 func ReverseRunes(s string) string {
 	r := []rune(s)
