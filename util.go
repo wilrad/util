@@ -2,6 +2,11 @@
  * Modul enthält einige allgemeine Funktionen
  */
 
+import (
+	"fmt"
+	"log"
+)
+
 package util
 
 // allgemeine Fehlerkontrolle
