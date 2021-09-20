@@ -10,7 +10,7 @@ import (
 )
 
 // allgemeine Fehlerkontrolle
-func checkErr(err error) {
+func CheckErr(err error) {
 //	fmt.Println("in checkErr", err)
 	if err != nil {
 		log.Fatal(err)
@@ -21,7 +21,7 @@ func checkErr(err error) {
 
 
 // ein Slit mit Namen wird in einen String mit Trennern ", " umgewandelt
-func array2string(in []string) string {
+func Array2string(in []string) string {
 	var s string
 	for i, h := range in {
 		if i == 0 {
@@ -35,7 +35,7 @@ func array2string(in []string) string {
 
 
 // Erstellen eines Strings "?, ?"
-func questionMark(anz int) string {
+func QuestionMark(anz int) string {
 	var s string
 	for i := 0; i < anz; i++ {
 		if i == 0 {
