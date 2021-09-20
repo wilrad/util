@@ -8,7 +8,3 @@ func ReverseRunes(s string) string {
 	}
 	return string(r)
 }
-
-func Add(i int) int {
-	return i + 4444
-}
